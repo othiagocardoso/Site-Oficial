@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <!-- Header da nossa página -->
+        <header>
+            <h1>Entre em contato conosco</h1>
+        </header>
+
+        <main>
+            <h2>Cliente</h2>
+            <!-- Criação do formulário -->
+            <form>
+                <div>
+                    <label for="nome">
+                        <b>Nome: </b>   
+                    </label>
+                    <br>
+                    <input type="text" id="nome"
+                    placeholder="Ex. Thiago" required
+                    autocomplete="off" class="transformacao">
+                </div>
+                
+                <div>
+                    <label for="telefone">
+                        <b>Telefone:</b> 
+                    </label>
+                    <br>
+                    <input type="tel" id="telefone" 
+                    placeholder="(XX) XXXXX-XXXX">
+                </div>
+                <div>
+                    <label for="email">
+                        <b>E-mail:</b>
+                    </label>
+                    <br>
+                    <input type="email" id="email"
+                        placeholder="seuemail@email.com">
+                </div>
+
+                <div>
+                    <label for="select">
+                        <b>Selecione o produto</b>
+                    </label>
+                    <br>
+                    <select name="Itens" id="suplementos">
+                        <option value="creatina">Creatina</option>
+                        <option value="whey">Whey</option>
+                        <option value="Hipercalórico">Hipercalórico</option>
+                        <option value="Maltodextrina">Maltodextrina</option>
+                        <option value="Polivitaminico">Polivitaminico</option>
+                        <option value="cafeina">Cafeína</option>
+                        <option value="pre_treino">Pré treino</option>
+                        <option value="Roupas">Roupas</option>
+
+                    </select>
+
+                <div>
+                    <label for="descricao">
+                        Qual motivo do contato?
+                    </label>
+                    <br>
+                    <textarea rows="10" cols="50"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+
+                </div>
+            </form>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>

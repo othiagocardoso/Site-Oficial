@@ -1,0 +1,5 @@
+div: agrupa elementos para fins de estilizar.
+nav: uma seção que utiliza de links para navegação.
+ul(elemento HTML de Lista desordenada): cria uma lista não ordenada.
+li: representa os itens que fazem parte de uma lista.
+a: é um hiperlink na página da web.
